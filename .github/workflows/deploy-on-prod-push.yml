@@ -16,7 +16,7 @@
            host: ${{secrets.PROD_HOST}}
            username: ${{secrets.SSH_PROD_USER_NAME}}
            port: ${{secrets.SSH_PROD_PORT}}
-           key: ${{secrets.SSH_PORD_KEY}}
+           key: ${{secrets.SSH_PROD_KEY}}
            source: "./html/*"
            target: "/var/www/html"
            strip_components: 1
